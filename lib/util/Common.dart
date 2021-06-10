@@ -1,6 +1,6 @@
 enum Gender { Male, Female }
 
-enum City {
+enum States {
   MAHARASHTRA,
   GUJARAT,
   KARNATAKA,

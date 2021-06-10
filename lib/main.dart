@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/Users/HP/Desktop/flutter_projects_neosoft/flutterdemo1/lib/Providers/ProviderClass.dart';
+import 'package:flutterdemo1/Providers/ProviderClass.dart';
+import 'package:flutterdemo1/UI/AddressPage.dart';
 import 'package:flutterdemo1/UI/RegistratonPage.dart';
+import 'package:flutterdemo1/UI/YourInfoPage.dart';
 import 'package:provider/provider.dart';
 
 void main() => runApp(MyApp());

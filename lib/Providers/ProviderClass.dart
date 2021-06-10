@@ -7,11 +7,11 @@ class ProviderClass extends ChangeNotifier
 {
   var genderVal = Gender.Male;
   int educationValue;
-  int cityValue;
+  int stateValue;
 
-  int getCityValue()
+  int getStateValue()
   {
-    return cityValue;
+    return stateValue;
   }
 
   int getEducationValue()
@@ -35,9 +35,9 @@ class ProviderClass extends ChangeNotifier
     notifyListeners();
   }
 
-  void changeCityValue(var val)
+  void changeStateValue(var val)
   {
-    cityValue= val;
+    stateValue= val;
     notifyListeners();
   }
 }
