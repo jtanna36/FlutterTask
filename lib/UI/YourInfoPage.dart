@@ -5,7 +5,7 @@ import 'file:///C:/Users/HP/Desktop/flutter_projects_neosoft/flutterdemo1/lib/Pr
 import 'package:flutterdemo1/UI/AddressPage.dart';
 import 'package:flutterdemo1/UI/RegistratonPage.dart';
 import 'package:flutterdemo1/util/Common.dart';
-import 'package:flutterdemo1/util/sputils.dart';
+import 'package:flutterdemo1/util/common_utils.dart';
 import 'package:provider/provider.dart';
 
 class YourInfo extends StatefulWidget {

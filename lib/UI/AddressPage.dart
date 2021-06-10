@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'file:///C:/Users/HP/Desktop/flutter_projects_neosoft/flutterdemo1/lib/Providers/ProviderClass.dart';
 import 'package:flutterdemo1/util/Common.dart';
-import 'package:flutterdemo1/util/sputils.dart';
+import 'package:flutterdemo1/util/common_utils.dart';
 import 'package:provider/provider.dart';
 
 class AddressPage extends StatefulWidget {
