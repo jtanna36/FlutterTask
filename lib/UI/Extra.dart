@@ -27,7 +27,7 @@ class _ExtraState extends State<Extra> {
                   return TextFormField(
                     controller: controller,
                     decoration: InputDecoration(
-                      hintText: "Write here"
+                      hintText: "Hello here"
                     ),
                   );
                 }),
