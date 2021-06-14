@@ -10,7 +10,6 @@ class Extra extends StatefulWidget {
 
 class _ExtraState extends State<Extra> {
   TextEditingController controller = new TextEditingController();
-  FormBloc formBloc = new FormBloc();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,20 +19,15 @@ class _ExtraState extends State<Extra> {
       body: Container(
         child: Column(
           children: [
-            StreamBuilder<User>(
-                stream: formBloc.userStream,
-                builder: (context, snapshot) {
-                  controller.text = snapshot.data.value.toString();
-                  return TextFormField(
-                    controller: controller,
-                    decoration: InputDecoration(
-                      hintText: "Hello here"
-                    ),
-                  );
-                }),
+            TextFormField(
+              controller: controller,
+              decoration: InputDecoration(
+                  hintText: "write here"
+              ),
+            ),
             TextButton(
               onPressed: (){
-                formBloc.selectCity(User(3));
+                print("hello");
               },
               child: Text("Submit"),
             )
